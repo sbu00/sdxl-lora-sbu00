@@ -1,0 +1,9 @@
+# replicate.yaml
+run: python predict.py
+predict:
+  lora_path:
+    type: path
+    default: lora/my_lora_project-10.safetensors
+  prompt:
+    type: string
+    default: "A cute fox girl"
