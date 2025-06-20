@@ -1,0 +1,13 @@
+torch==2.1.2
+torchvision==0.16.2
+transformers==4.36.2
+diffusers[torch]==0.25.0
+accelerate==0.27.2
+safetensors==0.4.0
+xformers==0.0.30
+scipy
+numpy
+Pillow
+jinja2
+requests
+psutil
